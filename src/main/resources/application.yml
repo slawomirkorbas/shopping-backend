@@ -1,0 +1,18 @@
+discount:
+  policies:
+    # Percentage discount thresholds (%)
+    percentageThresholds:
+      - itemsCount: 100
+        discount: 10
+
+      - itemsCount: 1000
+        discount: 20
+
+
+    # Value discount thresholds (USD)
+    absoluteThresholds:
+      - itemsCount: 10
+        discount: 1.00
+
+      - itemsCount: 100
+        discount: 5.00
